@@ -1,16 +1,21 @@
 # quiz_enlab
 
-A new Flutter project.
+This is project test in Enlab Software Company.
 
-## Getting Started
+### Landing Screen
 
-This project is a starting point for a Flutter application.
+<img src="https://github.com/pxhiep19it3/images/blob/main/LandingScreen.png" width="300px"  height="650px">
+ 
+ ### Quiz Screen
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://github.com/pxhiep19it3/images/blob/main/QuizScreen1.png" width="300px"  height="650px">
+ 
+ <img src="https://github.com/pxhiep19it3/images/blob/main/QuizScreen2.png" width="300px"  height="650px">
+  
+ <img src="https://github.com/pxhiep19it3/images/blob/main/QuizScreen3.png" width="300px"  height="650px">
+ 
+ ### Result Screen
+ 
+ <img src="https://github.com/pxhiep19it3/images/blob/main/ResultScreen1.png" width="300px"  height="650px">
+ 
+ <img src="https://github.com/pxhiep19it3/images/blob/main/ResultScreen2.png" width="300px"  height="650px">
