@@ -19,8 +19,7 @@ class LandingScreen extends StatelessWidget {
             Image.asset(AppImages.robotImg, height: 200, width: 200),
             AppButton(
               onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (_) => const QuizScreen()));
+                onPress(context);
               },
               label: 'Start Quiz!',
               width: width * 0.35,
@@ -28,6 +27,14 @@ class LandingScreen extends StatelessWidget {
           ],
         ),
       ),
+    );
+  }
+
+  onPress(BuildContext context) {
+    Navigator.pushAndRemoveUntil(
+      context,
+      MaterialPageRoute(builder: (context) => const QuizScreen()),
+      (Route<dynamic> route) => false,
     );
   }
 }
