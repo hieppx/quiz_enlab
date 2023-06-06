@@ -6,16 +6,15 @@ import 'package:quiz_enlab/utils/widgets/app.button.dart';
 import '../../../utils/values/app.colors.dart';
 
 class ResultScreen extends StatelessWidget {
-  const ResultScreen(
-      {super.key,
-      required this.score,
-      required this.lenghtQuestions,
-      required this.seconds,
-     });
+  const ResultScreen({
+    super.key,
+    required this.score,
+    required this.lenghtQuestions,
+    required this.seconds,
+  });
   final int score;
   final int lenghtQuestions;
   final int seconds;
-
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +35,7 @@ class ResultScreen extends StatelessWidget {
 
     return Container(
       width: double.infinity,
-      height: height * 0.35,
+      height: height * 0.45,
       decoration: BoxDecoration(
           color: AppColors.whiteColor, borderRadius: BorderRadius.circular(20)),
       child: Padding(
@@ -69,7 +68,7 @@ class ResultScreen extends StatelessWidget {
               style: const TextStyle(fontSize: 18),
             ),
             const SizedBox(
-              height: 20,
+              height: 35,
             ),
             AppButton(
                 onPressed: () {
